@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #222;
+}
+
+header {
+  display: flex;
+  background-color: #031125e0;
+  color: #fff;
+}
+
+.log img {
+  height: auto;
+  width: 100%;
+}
