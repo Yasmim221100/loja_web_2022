@@ -1,8 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "livePreview.defaultPreviewPath": "c:\\projetos-yasmim\\loja_web_2022\\index.html"
+  }
 }

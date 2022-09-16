@@ -14,3 +14,7 @@ header {
   height: auto;
   width: 100%;
 }
+
+.navbar {
+  display: flex;
+}

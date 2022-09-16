@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,46 +13,129 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
     
     <link rel="stylesheet" href="/css/root.css">
-
     <link rel="stylesheet" href="/css/default.css">
-
     <link rel="stylesheet" href="/css/header.css">
-
-    <link rel="stylesheet" href="/css/style.css">
-
     <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/style.css">
 
   </head>
 
-<body class="black">
-<nav>
-<div>
-  <img src="./docs/img/logo.png" alt="logo da amazon">
-</div>
- 
-<div>
-  <span>?</span>
-</div>
+  <body class="black">
+  <nav class="navbar">
+    <div>
+      <img src="./docs/img/logo.png" alt="logo da amazon">
+    </div>
+    <!-- <ul>
+      <li>
+        <a href="promocinal.html">
+        <img
+        src="./docs/img/localizacao.png" alt="promocional" height="30"
+          class="w-100">
+        </a>
+        </li>
+        </ul>     -->
 
-<div><span> Localizçaõ</span></div> 
 
-<div>
-  <span>Olá, seja bem vindo!</span>
-  <span>Selecione o seu pedido</span>
-</div>
+    <a>
+      <div>
+        <img src="./docs/img/localizacao.png" alt="Localização" height="30">
+      </div>
+      <div>
+        <span>Localização</span>
+        <span>Selecione o endereço</span>
+      </div> 
+    </a>
 
-<div class="pesquisa col-4"></div>
-<form action="" class="formpesquisa">
-<label for="selectTipo"></label>
-<select name></select>
-</form>
-</nav>
- <main>
+    <div>
+      <form action="" class="formpesquisa">
+        <label for="selectTipo"></label>
+        <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
+          <option value="0" selected>Todos</option>
+          <option value="1">Eletrônicos</option>
+          <option value="2">Casa</option>
+          <option value="3"></option>
+        </select>
 
-  <header class="row">
-    <div class="logo col-2">
-    </header>
-    </main>
-    </body>
+        <label for="nome do produto"></label> 
+        <input type="text" name="nomeProduto" id="nomeProduto" title="Nome Do Produto">
+
+      <!-- <label for=""></label>-->
+      <!--<input type="submit" value="">-->
+        <button type="submit" title="fazer pesquisa">
+          <i class="fas fa-search">?</i>
+        </button>
+        </form>
+      </div>
+
+      <div class="login col-2">
+        <span>Olá faça o seu login</span>
+        <span>contas e listas</span>
+      </div>
+
+      <div class="pedidos col-1">
+        <span>Devoluções</span>
+        <span>e pedidos</span>
+      </div>
+
+          <a href="compra.html">
+            <div>
+              <img src="./docs/img/carrinho-de-compras.png" alt="compra" height="30" >
+            </div>
+            <div>
+              <span>Carrinho</span>
+            </div>
+          </a>
+    </nav>
+
+  <nav class="row bg-blue">
+    <ul class="menu white col-8">
+    <li>
+      <button title="menu">
+      <i class="fa fa-solid fa-bars"></i>
+      <span>Todos</span>
+      </button>
+    </li>
+    <li>
+      <a href="">
+        Venda AMAZON
+      </a>
+    </li>
+    <li>
+      <a href="">
+        PRIME
+        <i class="fa fa-solid fa-caret-down"></i>
+      </a>
+    </li>
+    </ul>
+
+
+  </nav>
+  <selection class="container row bg-blue">
+    <div class="carousel col-12">
+    </div>
+  <div class="produtos col-12">
+  </div>
+  <div class="produtos col-3">
+    <div class="produto-comum">
+      <h2>Produto 1</h2>
+      <a href="">
+      
+        </div>
+      </a>
+    </div>
+
+  </div>
+  </selection>
+  </nav>
+  <main>
+
+    <header class="row">
+      <div class="logo col-2">
+      </header>
+      </main>
+      
+
+      
+      </body>
 
 </html>
