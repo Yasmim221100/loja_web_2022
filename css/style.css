@@ -4,17 +4,19 @@ body {
   color: #222;
 }
 
-header {
+nav {
   display: flex;
   background-color: #031125e0;
   color: #fff;
-}
-
-.log img {
-  height: auto;
-  width: 100%;
-}
-
-.navbar {
   display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
 }
